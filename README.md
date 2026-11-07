@@ -1,6 +1,8 @@
 # SMARTRETURN AI 🛍️⚡
 
 > **College-level Product Return, Exchange, Warranty and Purchase Management SaaS**
+- 🌐 **Live Application:** [smartreturn-ai-frontend.vercel.app](https://smartreturn-ai-frontend.vercel.app)
+- ⚙️ **Backend API Docs (Swagger):** [smartreturn-backend.onrender.com/docs](https://smartreturn-backend.onrender.com/docs)
 
 SMARTRETURN AI is a modern SaaS platform designed to help consumers track their purchases, monitor return deadline countdowns, manage warranty expirations, and maintain receipt records securely.
 
