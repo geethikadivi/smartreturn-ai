@@ -56,13 +56,14 @@ origins = [
     "http://localhost",
     "http://127.0.0.1",
     "http://127.0.0.1:80",
-    "*",
+    "https://smartreturn-ai-frontend.vercel.app",
 ]
 
 # Configure Cross-Origin Resource Sharing (CORS)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
